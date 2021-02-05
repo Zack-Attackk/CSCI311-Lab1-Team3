@@ -34,32 +34,37 @@ header {
         background-color: #33B1FF;
     }
 
-.headDiv {
-    max-width: 100%;
-    height: 650px;
-    background: url(../img/beachSunset.jpeg) bottom no-repeat;
+#headDiv {
+    width: auto;
+    height: 800px;
+    background: url(../img/nice.jpeg)no-repeat center; 
+    background-size: 100%;
+    line-height: 800px;
+    margin: auto;
 }
 
 
-#titleText {
-    
+
+.titleText {
     font-size: 50px;
-    line-height: 1.6;
+    line-height: 2.0;
     text-align: center;
-    color: white;
-    margin: auto;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: black;
+    
     
 }
 
-#titleSubText{
+.titleSubText{
     font-size: 25px;
+    line-height: 2.0;
+    font-family: "Lucida Console", "Courier New", monospace;
     text-align: center;
-    color: white;
-    margin: auto;
+    color:black;
 
 }
 .neckPointPic{
-    max-width:100%
+    max-width:100
 }
 
 .neckPointText{
