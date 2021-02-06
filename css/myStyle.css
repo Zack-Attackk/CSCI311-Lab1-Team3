@@ -1,3 +1,4 @@
+
 * { 
     margin: 0;
     padding: 0;
@@ -34,12 +35,12 @@ header {
     font-size: 20px;
 }
 
-    .topnav a:hover, header .active a {
-        background-color: #33B1FF;
-    }
+.topnav a:hover, header .active a {
+    background-color: #33B1FF;
+}
 
 #headDiv {
-    width: auto;
+    width: 100%;
     height: 800px;
     background: url(../img/nice.jpeg)no-repeat center; 
     background-size: 100%;
@@ -56,6 +57,7 @@ header {
     font-family: "Lucida Console", "Courier New", monospace;
     color: white;
     text-shadow: 3px 3px black;
+    
 }
 
 .titleSubText {
@@ -67,17 +69,45 @@ header {
     text-shadow: 3px 3px black;
 }
 
-.neckPointPic{
-    width:auto;
-    /*max-width:50%;*/
+
+.titleSubText {
+    animation: color-change 10s infinite;
+  }
+  
+  @keyframes color-change {
+      0% { color: red; }
+      15% {color : orange}
+      30% {color: yellow}
+      45% {color:red}
+      60% { color:orange; }
+      75% {color: paleturquoise}
+      100% { color:palegreen; }
+  }
+
+  .titleText {
+    animation: color-change 10s infinite;
+  }
+  
+  @keyframes color-change {
+      0% { color: red; }
+      15% {color : orange}
+      30% {color: yellow}
+      45% {color: red}
+      60% { color:orange; }
+      75% {color:paleturquoise}
+      100% { color:palegreen; }
+  }
+
+  .neckPointPic{
+    max-width:54%;
+    margin-top:4px;
     display:inline-block;
     vertical-align:top;
    
 }
-
 .neckPointText {
     padding:10px;
-    margin-top:250px;
+    margin-top:17%;
     margin-left:200px;
     position:relative;
     display:inline-block;
@@ -89,16 +119,16 @@ header {
     border-radius:12px;
 }
 
-
 .neckPointText h3 {
     text-align: center;
 }
 
 
 .waterFrontText {
+    max-width: 70%;
     padding: 10px;
     margin-top: 200px;
-    margin-left: 200px;
+    margin-left: 20px;
     position: relative;
     display: inline-block;
     text-align: justify;
@@ -116,10 +146,9 @@ header {
 }
 
 .waterFrontPic {
-    max-width: 50%;
+    float:right;
     display: inline-block;
     vertical-align: top;
-    margin-left:215px;
     position:relative;
 }
 
@@ -134,7 +163,7 @@ header {
 .mountBensonText {
     padding: 10px;
     margin-top: 250px;
-    margin-left: 200px;
+    margin-left: 250px;
     position: relative;
     display: inline-block;
     text-align: justify;
@@ -181,3 +210,4 @@ footer {
         padding-left: 20px;
         font-size: 20px;
     }
+
