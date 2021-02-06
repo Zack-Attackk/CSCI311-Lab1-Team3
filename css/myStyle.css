@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.underHeader {
+    background-color: #969696;
+}
+
 header {
     width: 100%;
     height: 100px;
@@ -50,29 +54,100 @@ header {
     line-height: 2.0;
     text-align: center;
     font-family: "Lucida Console", "Courier New", monospace;
-    color: black;
-    
-    
+    color: white;
+    text-shadow: 3px 3px black;
 }
 
-.titleSubText{
+.titleSubText {
     font-size: 25px;
     line-height: 2.0;
     font-family: "Lucida Console", "Courier New", monospace;
     text-align: center;
-    color:black;
-
+    color:white;
+    text-shadow: 3px 3px black;
 }
+
 .neckPointPic{
-    max-width:100
+    width:auto;
+    /*max-width:50%;*/
+    display:inline-block;
+    vertical-align:top;
+   
 }
 
-.neckPointText{
-  
-
+.neckPointText {
+    padding:10px;
+    margin-top:250px;
+    margin-left:200px;
+    position:relative;
+    display:inline-block;
+    text-align:justify;
+    font-size:20px;
+    max-width:450px;
+    background-color:lightgrey;
+    border:5px solid;
+    border-radius:12px;
 }
 
 
+.neckPointText h3 {
+    text-align: center;
+}
+
+
+.waterFrontText {
+    padding: 10px;
+    margin-top: 200px;
+    margin-left: 200px;
+    position: relative;
+    display: inline-block;
+    text-align: justify;
+    font-size: 20px;
+    max-width: 450px;
+    background-color: lightgrey;
+    border: 5px solid;
+    border-radius: 12px;
+}
+
+.waterFrontText h3{
+
+    text-align:center;
+
+}
+
+.waterFrontPic {
+    max-width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left:215px;
+    position:relative;
+}
+
+
+
+.mountBensonPic {
+    max-width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.mountBensonText {
+    padding: 10px;
+    margin-top: 250px;
+    margin-left: 200px;
+    position: relative;
+    display: inline-block;
+    text-align: justify;
+    font-size: 20px;
+    max-width: 450px;
+    background-color: lightgrey;
+    border: 5px solid;
+    border-radius: 12px;
+}
+
+.mountBensonText h3 {
+    text-align: center;
+}
 
 footer {
     clear: both;
