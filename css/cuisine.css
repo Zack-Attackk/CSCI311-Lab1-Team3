@@ -1,0 +1,129 @@
+.harbour {
+    animation: color-change 10s infinite;
+}
+
+@keyframes color-change {
+    0% {
+        color: red;
+    }
+    15% {
+        color: orange
+    }
+    30% {
+        color: yellow
+    }
+    45% {
+        color: green
+    }
+    60% {
+        color: blue;
+    }
+    75% {
+        color: indigo
+    }
+    100% {
+        color: violet;
+    }
+}
+
+html, body {
+    margin: 0;
+}
+
+.menu-list {
+    height: 58px;
+    line-height: 58px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.menu-list > ul {
+    margin: 0;
+    text-align: center;
+}
+
+.menu-list > ul::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.menu-list > ul > li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.menu-list > ul > li > a {
+    color: white;
+    padding: 14px 14px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu-list > ul > li > a:hover {
+    background-color: #33B1FF;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+footer > h2 {
+    color: white;
+}
+
+footer > ul > li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 30px;
+}
+
+footer > ul {
+    height: 58px;
+    line-height: 58px;
+}
+
+footer > ul > li > a {
+    color: white;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+
+.main {
+    width: 900px;
+    margin: 0 auto;
+
+}
+
+.cuisine {
+    width: 50%;
+    display: block;
+    margin: auto;
+    /*float: left;*/
+}
+
+.cuisine-top > h1 {
+    width: 30%;
+    position: relative;
+    top: 60px;
+    left: 30%;
+    height: 0;
+    margin: 0;
+    font-size: 50px;
+    color: white;
+
+}
+
+.cuisine-top > img {
+    width: 100%;
+}
+
+.main p {
+    text-indent: 2em;
+    margin: 1em;
+}
