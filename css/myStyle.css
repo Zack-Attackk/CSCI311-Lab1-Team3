@@ -45,6 +45,7 @@ header {
     background-size: 100%;
     line-height: 800px;
     margin: auto;
+    margin-top: 0%
 }
 
 
@@ -101,22 +102,34 @@ header {
 
  body{
     background-color:grey;
-
-}
-
-  .neckPointPic{
-    float:right;
-    display:inline-block;
-
    
 }
+
+ .center{
+     display:block;
+     margin-left:auto;
+     margin-right:auto;
+     width:90%;
+
+ }
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width:1000px;
+   
+}
+
 .neckPointText {
-    float:left;
-    display:inline-block;
-    width:400px;
-    height:230px;
-    margin-top:10%;
-    margin-left:10%;
+    
+    margin-top:10px;
+    margin-bottom:10px;
+    
+    width:450px;
+    height:190px;
+    
+    
     
     padding: 1%;
     border: solid 5px;
@@ -130,19 +143,17 @@ header {
 }
 
 .neckPointText a{
-    margin-left: 45px;
-
+     margin-left:70px;
 }
 
 
 
 .waterFrontText {
-    float: left;
-    display: inline-block;
-    width: 400px;
-    height: 280px;
-    margin-top: 20%;
-    margin-left: 10%;
+    margin-bottom:10px;
+    margin-top:10px;
+    width: 450px;
+    height: 265px;
+   
     padding: 1%;
     border: solid 5px;
     border-radius: 12px;
@@ -155,27 +166,17 @@ header {
     }
 
 .waterFrontText a{
-    margin-left:20px;
+    margin-left:45px;
 
 }
-.waterFrontPic {
-    float: right;
-    display: inline-block;
-}
 
-
-
-.mountBensonPic {
-    float:right;
-}
 
 .mountBensonText {
-    float: left;
-    display: inline-block;
-    width: 400px;
-    height: 265px;
-    margin-top: 20%;
-    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 450px;
+    height: 250px;
+   
     padding: 1%;
     border: solid 5px;
     border-radius: 12px;
@@ -185,6 +186,11 @@ header {
     .mountBensonText h3 {
         text-align: center;
         text-decoration: underline;
+    }
+
+    .mountBensonText a{
+        margin-left:15px;
+
     }
 
 .underHead a:link, a:visited {
